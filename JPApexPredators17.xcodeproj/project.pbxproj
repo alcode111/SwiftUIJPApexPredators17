@@ -12,6 +12,7 @@
 		EC06EEA22BC3F5DD00BF8E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC06EEA12BC3F5DD00BF8E31 /* Assets.xcassets */; };
 		EC06EEA52BC3F5DD00BF8E31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC06EEA42BC3F5DD00BF8E31 /* Preview Assets.xcassets */; };
 		EC06EEAC2BC4007500BF8E31 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = EC06EEAB2BC4007500BF8E31 /* jpapexpredators.json */; };
+		EC06EEAE2BC4123100BF8E31 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06EEAD2BC4123100BF8E31 /* ApexPredator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EC06EEA12BC3F5DD00BF8E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC06EEA42BC3F5DD00BF8E31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC06EEAB2BC4007500BF8E31 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		EC06EEAD2BC4123100BF8E31 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				EC06EE9D2BC3F5DA00BF8E31 /* JPApexPredators17App.swift */,
 				EC06EE9F2BC3F5DA00BF8E31 /* ContentView.swift */,
+				EC06EEAD2BC4123100BF8E31 /* ApexPredator.swift */,
 				EC06EEAB2BC4007500BF8E31 /* jpapexpredators.json */,
 				EC06EEA12BC3F5DD00BF8E31 /* Assets.xcassets */,
 				EC06EEA32BC3F5DD00BF8E31 /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC06EEAE2BC4123100BF8E31 /* ApexPredator.swift in Sources */,
 				EC06EEA02BC3F5DA00BF8E31 /* ContentView.swift in Sources */,
 				EC06EE9E2BC3F5DA00BF8E31 /* JPApexPredators17App.swift in Sources */,
 			);
