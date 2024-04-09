@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     let predators = Predators()
+    
     @State var searchText = ""
+    @State var alphabetical = false
+    
     var filteredDinos: [ApexPredator] {
+        predators.sort(by: alphabetical)
+        
         return predators.search(for: searchText)
     }
     
@@ -48,6 +53,19 @@ struct ContentView: View {
             .searchable(text: $searchText)
             .autocorrectionDisabled()
             .animation(.default, value: searchText)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button {
+                        withAnimation {
+                            alphabetical.toggle()
+                        }
+                    } label: {
+                        Image(systemName: alphabetical ?
+                              "film" : "textformat.abc")
+                        .symbolEffect(.bounce, value: alphabetical)
+                    }
+                }
+            }
         }
         .preferredColorScheme(.dark)
 
