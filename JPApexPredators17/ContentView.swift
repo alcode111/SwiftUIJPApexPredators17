@@ -11,14 +11,7 @@ struct ContentView: View {
     let predators = Predators()
     @State var searchText = ""
     var filteredDinos: [ApexPredator] {
-        if searchText.isEmpty {
-            return predators.apexPredators
-        } else {
-            return predators.apexPredators.filter { predator in
-                predator.name
-                    .localizedCaseInsensitiveContains(searchText)
-            }
-        }
+        return predators.search(for: searchText)
     }
     
     var body: some View {
@@ -54,6 +47,7 @@ struct ContentView: View {
             .navigationTitle("Apex Predators")
             .searchable(text: $searchText)
             .autocorrectionDisabled()
+            .animation(.default, value: searchText)
         }
         .preferredColorScheme(.dark)
 
