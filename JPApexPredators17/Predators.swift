@@ -56,7 +56,7 @@ class Predators {
         if type == .all {
             apexPredators = allApexPredators
         } else {
-            apexPredators = apexPredators.filter { predator in
+            apexPredators = allApexPredators.filter { predator in
                 predator.type == type
             }
         }
