@@ -14,6 +14,7 @@
 		EC06EEAC2BC4007500BF8E31 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = EC06EEAB2BC4007500BF8E31 /* jpapexpredators.json */; };
 		EC06EEAE2BC4123100BF8E31 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06EEAD2BC4123100BF8E31 /* ApexPredator.swift */; };
 		EC06EEB22BC429F000BF8E31 /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06EEB12BC429F000BF8E31 /* Predators.swift */; };
+		ECCA55352BC6A5AE008BB21A /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA55342BC6A5AE008BB21A /* PredatorDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EC06EEAB2BC4007500BF8E31 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 		EC06EEAD2BC4123100BF8E31 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
 		EC06EEB12BC429F000BF8E31 /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
+		ECCA55342BC6A5AE008BB21A /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				EC06EE9D2BC3F5DA00BF8E31 /* JPApexPredators17App.swift */,
 				EC06EE9F2BC3F5DA00BF8E31 /* ContentView.swift */,
+				ECCA55342BC6A5AE008BB21A /* PredatorDetail.swift */,
 				EC06EEAD2BC4123100BF8E31 /* ApexPredator.swift */,
 				EC06EEB12BC429F000BF8E31 /* Predators.swift */,
 				EC06EEAB2BC4007500BF8E31 /* jpapexpredators.json */,
@@ -149,6 +152,7 @@
 			files = (
 				EC06EEAE2BC4123100BF8E31 /* ApexPredator.swift in Sources */,
 				EC06EEA02BC3F5DA00BF8E31 /* ContentView.swift in Sources */,
+				ECCA55352BC6A5AE008BB21A /* PredatorDetail.swift in Sources */,
 				EC06EEB22BC429F000BF8E31 /* Predators.swift in Sources */,
 				EC06EE9E2BC3F5DA00BF8E31 /* JPApexPredators17App.swift in Sources */,
 			);
