@@ -43,9 +43,12 @@ struct PredatorDetail: View {
                     Text(predator.name)
                     
                     NavigationLink {
-                        Image(predator.image)
-                            .resizable()
-                            .scaledToFit()
+                        PredatorMap(position: .camera(
+                            MapCamera(
+                                centerCoordinate: predator.location,
+                                distance: 1000,
+                                heading: 250,
+                                pitch: 80)))
                     } label: {
                         Map(position: $position) {
                             Annotation(
@@ -73,7 +76,6 @@ struct PredatorDetail: View {
                                 .clipShape(.rect(bottomTrailingRadius: 15))
                         }
                         .clipShape(.rect(cornerRadius: 15))
-
                     }
                     
                     Text("Appears In:")
